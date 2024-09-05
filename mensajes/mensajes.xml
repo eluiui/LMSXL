@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mensajes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Z:/1º%20DAM/LMSXL/3º%20trimestre/trabajos/2º%20examen/mensajes/mensajes.xsd">
+  <mensaje>
+    <num_telefono>999999999</num_telefono>
+    <fecha_envio>
+      <dia>1</dia>
+      <mes>marzo</mes>
+      <año>2023</año>
+    </fecha_envio>
+    <hora_envio>12:00</hora_envio>
+    <contenido_mensaje>dfjghdhuisiadsbadhjs</contenido_mensaje>
+  </mensaje>
+  <mensaje>
+    <num_telefono>666666666</num_telefono>
+    <fecha_envio>
+      <dia>1</dia>
+      <mes>marzo</mes>
+      <año>2023</año>
+    </fecha_envio>
+    <contenido_mensaje>QUEDISE</contenido_mensaje>
+  </mensaje>
+  <mensaje>
+    <num_telefono>999999999</num_telefono>
+    <fecha_envio>
+      <dia>1</dia>
+      <mes>marzo</mes>
+      <año>2023</año>
+    </fecha_envio>
+    <hora_envio>12:10</hora_envio>
+    <contenido_mensaje>nadaxdddd</contenido_mensaje>
+  </mensaje>
+</mensajes>
