@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Ejemplo de herencia de estilos</title>
+	<style type="text/css">
+		/* CASO 1
+		body {color: grey;}
+		body div.destacado p {color: cyan;}
+		.destacado {color: green;}
+		div.destacado {color: blue;}
+		div.destacado p {color: yellow;}
+		*/
+		
+		/* CASO 2
+		body {color:grey;}
+		*/
+		
+		/* CASO 3 
+		body {color: grey;}
+		.destacado {color: green;}
+		*/
+
+		/* CASO 4 
+        body div.destacado p {color: cyan;}
+       .destacado {color: green;}
+	   */
+
+		/* CASO 5
+		body div.destacado p {color: cyan;}
+		.destacado {color: green;}
+		p {color: blue;}
+		*/
+
+		/* uso de !important */
+		/*===================*/
+		
+		/* CASO 1 !important 
+		body div.destacado p {color: cyan;}
+		.destacado {color: green;}
+		p {color: blue !important;}
+		*/
+		
+		/* CASO 2 !important  
+		body div.destacado p {color: cyan;}
+		.destacado {color: green !important;}
+		*/
+		
+		/* CASO 3 !important 
+		body div.destacado p {color: cyan; text-decoration:underline;}
+		p {color: red !important;} 
+		*/
+		
+		/* CASO 4: mejor resuelto 
+		p {color: red;}
+		body div.destacado p {text-decoration:underline;}
+		*/
+		
+	</style>
+</head>
+<body>
+	<div> <!--Ejemplo aprenderaprogramar.com-->
+		<div class="destacado">
+			<p> Aprender a programar es un objetivo que se plantea mucha gente y que no todos alcanzan.</p>
+		</div> 
+		<!-- aquí podría ir más contenido-->
+	</div>
+</body>
+</html>
