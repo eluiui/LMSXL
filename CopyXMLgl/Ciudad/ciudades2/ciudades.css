@@ -1,0 +1,28 @@
+ciudad {
+    display: block;
+    font-family: Arial;
+    padding: 10px;
+}
+
+ciudad:nth-child(odd) {background:rgb(179, 179, 179);}
+ciudad:nth-child(even) {background:aqua;}
+nombre {
+    color: red;
+    display: block;
+    font-size: 20px;
+}
+
+provincia,
+comunidad {
+    margin-left:20px ;
+    display: block;
+}
+
+
+
+num_habitantes {
+    font-size: 20px;
+    text-decoration: underline;
+    margin-left: 150px;
+}
+

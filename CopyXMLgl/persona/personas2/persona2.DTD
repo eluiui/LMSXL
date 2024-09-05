@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT censo (persona)+>
+<!ELEMENT persona (nombre,(NI|,NIE), mujer,fecha-de-nacimiento, ciudad)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT mujer EMPTY>
+<!ELEMENT fecha-de-nacimiento (dia, mes, año)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
+<!ELEMENT NIF (#PCDATA)>
+<!ELEMENT NIE (#PCDATA)>

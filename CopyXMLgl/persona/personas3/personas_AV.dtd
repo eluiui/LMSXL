@@ -1,0 +1,18 @@
+  <!ELEMENT personas (persona*)>
+  <!ELEMENT persona (nombre, localidad?, fecha_nacimiento, fecha_alta)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT localidad (#PCDATA)>
+  <!ELEMENT fecha_nacimiento EMPTY>
+  <!ELEMENT fecha_alta EMPTY>
+    <!ATTLIST fecha_nacimiento  
+                      dia    CDATA  #REQUIRED
+                      mes  CDATA  #REQUIRED
+                      ano   CDATA  #REQUIRED>
+    <!ATTLIST fecha_alta                       
+                      dia    CDATA  #REQUIRED
+                      mes  CDATA  #REQUIRED
+                      ano   CDATA  #REQUIRED>
+                      
+                      <!--EQUIVALE A -->
+
+ 

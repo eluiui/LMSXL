@@ -1,0 +1,20 @@
+animal {
+    display: block;
+    font-family: Arial;
+}
+
+nombre {
+    color: blue;
+    font-size: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    width: 150px;
+}
+
+patas {
+    color: white;
+    background: red;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+}

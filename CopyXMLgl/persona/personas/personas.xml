@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- entidades del sistema o predefinidas -->
+<!DOCTYPE personas [
+  <!ELEMENT personas (persona*)>
+  <!ELEMENT persona (nombre, empresa, salario)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT empresa (#PCDATA)> 
+  <!ELEMENT salario (#PCDATA)>   
+]>
+  
+<personas>
+<persona>
+    <nombre>Eva</nombre>  
+    <empresa>C&amp;A</empresa>
+    <salario>&lt;1900</salario>
+  </persona>
+  <persona>
+    <nombre>Maria</nombre>  
+    <empresa>Xunta de Galicia</empresa>
+    <salario>1200</salario>
+  </persona>
+  <persona>
+    <nombre>Manuel</nombre>  
+    <empresa>Transportes García</empresa>
+    <salario>1900</salario>
+  </persona>
+      <persona>
+    <nombre>Juan</nombre>  
+    <empresa>Xunta de Galicia</empresa>
+    <salario>1100</salario>    
+  </persona>
+</personas>

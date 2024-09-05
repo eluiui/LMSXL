@@ -1,0 +1,27 @@
+  <!ENTITY % numeros  "CDATA">
+  <!ENTITY % texto  "CDATA">
+   <!ENTITY % obligatorio  "#REQUIRED">
+  <!ELEMENT personas (persona*)>
+  <!ELEMENT persona (nombre, localidad?, fecha_nacimiento)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT localidad (#PCDATA)>
+  <!ELEMENT fecha_nacimiento EMPTY>
+    <!ATTLIST fecha_nacimiento  
+                      dia    %numeros   %obligatorio
+                      mes  %texto  %obligatorio
+                      ano   %numeros  %obligatorio>
+                      
+                      <!--EQUIVALE A -->
+
+
+<!--  <!ELEMENT personas (persona*)>
+  <!ELEMENT persona (nombre, localidad?, fecha_nacimiento)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT localidad (#PCDATA)>
+  <!ELEMENT fecha_nacimiento EMPTY>
+    <!ATTLIST fecha_nacimiento  
+                      dia    CDATA  #REQUIRED
+                      mes  CDATA  #REQUIRED
+                      ano   CDATA  #REQUIRED>
+                      
+                      <!--EQUIVALE A -->-->

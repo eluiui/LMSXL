@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ciudades [
+<!--Construir nuestro DTD-->
+<!ELEMENT ciudades (ciudad)+> <!--uno o varios-->
+<!ELEMENT ciudad (nombre, provincia, comunidad, num_habitantes)>
+<!ELEMENT nombre (#PCDATA)><!--Elemento simple-->
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT comunidad (#PCDATA)>
+<!ELEMENT num_habitantes (#PCDATA)>
+]>
+<ciudades>
+  <ciudad>
+    <nombre>Vigo</nombre>  
+    <provincia>Pontevedra</provincia>
+    <comunidad>Galicia</comunidad>
+    <num_habitantes>300395</num_habitantes>
+  </ciudad>
+  <ciudad>
+    <nombre>Bueu</nombre>  
+    <provincia>Pontevedra</provincia>
+    <comunidad>Galicia</comunidad>
+    <num_habitantes>11950</num_habitantes>
+  </ciudad>
+      <ciudad>
+    <nombre>Monforte</nombre>  
+    <provincia>Lugo</provincia>
+    <comunidad>Galicia</comunidad>
+    <num_habitantes>18347</num_habitantes>
+  </ciudad>
+  <ciudad>
+    <nombre>Valdemoro</nombre>  
+    <provincia>Madrid</provincia>
+    <comunidad>Madrid</comunidad>
+    <num_habitantes>77270</num_habitantes>
+  </ciudad>
+    <ciudad>
+    <nombre>Badalona</nombre>  
+    <provincia>Barcelona</provincia>
+    <comunidad>Cataluña</comunidad>
+    <num_habitantes>223166</num_habitantes>
+  </ciudad>   
+</ciudades>

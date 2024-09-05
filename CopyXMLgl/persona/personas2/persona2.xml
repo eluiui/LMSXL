@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE censo SYSTEM "persona2.DTD"[
+]>
+<censo>
+<persona>
+<nombre>Elsa</nombre>
+<NIF>1111111a</NIF>
+<mujer/>
+<fecha-de-nacimiento>
+<dia>18</dia>
+<mes>6</mes>
+<año>1996</año>
+</fecha-de-nacimiento>
+<ciudad>Pamplona</ciudad>
+</persona>
+<persona>
+<nombre>Pepe</nombre>
+<NIE>dufh99jkfh</NIE>
+<mujer/>
+<fecha-de-nacimiento>
+<dia>17</dia>
+<mes>7</mes>
+<año>1999</año>
+</fecha-de-nacimiento>
+<ciudad>Madrid</ciudad>
+</persona>
+</censo>
