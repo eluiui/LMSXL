@@ -1,0 +1,1 @@
+alert("Has pulsado sobre el boton de aviso")
