@@ -1,0 +1,40 @@
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<title>Formulario</title>
+</head>
+<body>
+	<h1>Evalúate...</h1>
+	<form action="https://www.ctg.gal/2022/banco_sangre/informacion.php" method="post" enctype="application/x-www-form-urlencoded">
+		<fieldset>
+			<legend>Datos personales</legend>
+			<label for="nombre">Nombre</label></br>
+			<input id ="nombre" type="text" name="nombre" value=""/></br>
+			<label for="CP">CP</label></br>
+			<input id="CP" type="text" name="CP" value="" size="6" maxlength="5"/>
+		</fieldset>
+		<fieldset>
+			<legend>Aprendiste...</legend>
+			<label for="grupos">Elige grupos sanguíneos existentes</label>
+			<select id="grupos" name="grupos_sanguineo" size="3" multiple="multiple">
+				<option value="A" selected="selected">Grupo A</option>
+				<option value="B">Grupo B</option>
+				<option value="C">Grupo C</option>
+				<option value="AB">Grupo AB</option>
+				<option value="AC">Grupo AC</option>
+				<option value="BC">Grupo BC</option>
+			</select></br></br>
+			<label>Elige la respuesta correcta</label></br></br>
+			<input id="opcion1" type="radio" name="respuesta" value="A_A" checked="checked"/>
+			<label for="opcion1">El grupo A puede donar sólo a grupo A</label></br>
+			<input id="opcion2" type="radio" name="respuesta" value="A_A_AB"/>
+			<label for="opcion2">El grupo A puede donar a grupos A y AB</label></br>
+			<input id="opcion3" type="radio" name="respuesta" value="A_universal"/>
+			<label for="opcion3">El grupo A es el donante universal</label></br></br>
+			<input type="submit" name="evaluar" value="Evaluar"/>
+		</fieldset>
+	</form>
+	<p><a href="../principal/index.html">Volver a la página inicial</a></p>
+</body>
+</html>

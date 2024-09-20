@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ciudades>
+  <ciudad>
+    <nombre>Vigo</nombre>  
+    <provincia>Pontevedra</provincia>
+    <comunidad>Galicia</comunidad>
+    <num_habitantes>300395</num_habitantes>
+  </ciudad>
+  <ciudad>
+    <nombre>Bueu</nombre>  
+    <provincia>Pontevedra</provincia>
+    <comunidad>Galicia</comunidad>
+    <num_habitantes>11950</num_habitantes>
+  </ciudad>
+      <ciudad>
+    <nombre>Monforte</nombre>  
+    <provincia>Lugo</provincia>
+    <comunidad>Galicia</comunidad>
+    <num_habitantes>18347</num_habitantes>
+  </ciudad>
+  <ciudad>
+    <nombre>Valdemoro</nombre>  
+    <provincia>Madrid</provincia>
+    <comunidad>Madrid</comunidad>
+    <num_habitantes>77270</num_habitantes>
+  </ciudad>
+  <ciudad>
+    <nombre>Pinto</nombre>  
+    <provincia>Madrid</provincia>
+    <comunidad>Madrid</comunidad>
+    <num_habitantes>150000</num_habitantes>
+  </ciudad>
+    <ciudad>
+    <nombre>Badalona</nombre>  
+    <provincia>Barcelona</provincia>
+    <comunidad>Cataluña</comunidad>
+    <num_habitantes>223166</num_habitantes>
+  </ciudad>   
+</ciudades>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ciclos>
+  <ciclo>
+    <nombre>DAM</nombre>
+	  <familia>Informática y comunicaciones</familia>
+    <nivel>Superior</nivel>
+    <centro>IES de TEIS</centro>
+    <localidad>Vigo</localidad>
+    <provincia>Pontevedra</provincia>
+  </ciclo>
+  <ciclo>
+    <nombre>ASIR</nombre>
+    <familia>Informática y comunicaciones</familia>
+    <nivel>Superior</nivel>
+    <centro>IES de TEIS</centro>
+    <localidad>Vigo</localidad>
+    <provincia>Pontevedra</provincia>
+  </ciclo>
+  <ciclo>
+    <nombre>SMR</nombre>
+    <familia>Informática y comunicaciones</familia>
+    <nivel>Medio</nivel>
+    <centro>IES de TEIS</centro>
+    <localidad>Vigo</localidad>
+    <provincia>Pontevedra</provincia>
+  </ciclo>
+  <ciclo>
+    <nombre>DAM</nombre>
+    <familia>Informática y comunicaciones</familia>
+    <nivel>Superior</nivel>
+    <centro>IES Chan do Monte</centro>
+    <localidad>Marín</localidad>
+    <provincia>Pontevedra</provincia>
+  </ciclo>
+  <ciclo>
+    <nombre>ASIR</nombre>
+    <familia>Informática y comunicaciones</familia>
+    <nivel>Superior</nivel>
+    <centro>IES Fernando Wirtz</centro>
+    <localidad>A Coruña</localidad>
+    <provincia>A Coruña</provincia>
+  </ciclo>
+  <ciclo>
+    <nombre>VDS</nombre>
+    <familia>Imaxe e son</familia>
+    <nivel>Medio</nivel>
+    <centro>IES Saturnino Montojo</centro>
+    <localidad>Ferrol</localidad>
+    <provincia>A Coruña</provincia>
+  </ciclo>
+  <ciclo>
+    <nombre>ICTI</nombre>
+    <familia>Imaxe e son</familia>
+    <nivel>Superior</nivel>
+    <centro>CIFP Imaxe e Son</centro>
+    <localidad>Vigo</localidad>
+    <provincia>Pontevedra</provincia>
+  </ciclo>
+</ciclos>

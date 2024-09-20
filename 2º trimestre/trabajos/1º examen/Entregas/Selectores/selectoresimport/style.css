@@ -1,0 +1,82 @@
+body {
+    margin: 30px;
+}
+
+body p {
+    text-indent: 20px;
+}
+
+.destacado {
+    color: orange;
+}
+
+a em {
+    color: blue;
+}
+
+p a:visited {
+    color: red;
+}
+
+p a:link {
+    color: green;
+}
+
+p strong {
+    color: red;
+}
+
+#especial {
+    color: fuchsia;
+}
+
+span.especial {
+    color: purple;
+}
+
+td {
+    color: green;
+}
+
+td strong {
+    color: orange;
+}
+
+#adicional p {
+    color: olive;
+}
+
+#titulo {
+    color: teal;
+}
+
+#subtitulo {
+    color: blue;
+}
+
+th.especial {
+    color: orange;
+}
+
+thead {
+    color: orange;
+}
+
+tfoot {
+    color: red;
+}
+
+tr:nth-child(2) {
+    color: red;
+}
+
+table,
+td,
+th {
+    border-collapse: collapse;
+    border: solid black 1px;
+}
+
+caption {
+    color: blue;
+}

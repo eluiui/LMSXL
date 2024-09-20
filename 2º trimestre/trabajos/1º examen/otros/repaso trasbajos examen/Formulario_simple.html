@@ -1,0 +1,58 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>Formulario</title>
+	<style type="text/css">
+		body {
+			background-color: gray;
+		}
+
+		input {
+			border-radius: 5px;
+			display: block;
+			width: 10%;
+			margin: 20px 0px;
+			color: red;
+		}
+		#enviar:hover {
+			background-color: blue;
+			color: blueviolet;
+			margin: 0px 150px;
+		}
+		#enviar {
+			background-color: blueviolet;
+			color: blue;
+			margin: 0px 150px;
+		}
+
+		label {
+	
+			color: blue;
+		}
+
+		#nombre:hover {
+			background: navajowhite;
+		}
+        #apellidos:hover {
+			background: navajowhite;
+		}
+	</style>
+</head>
+
+<body>
+	<h3>Datos personales</h3>
+	<form action="insertar_datos.php" method="get">
+		<label for="nombre">Nombre </label>
+		<input type="text" id="nombre" name="nombre" value="" />
+
+		<label for="apellidos">Apellidos</label>
+		<input type="text" id="apellidos" name="apellidos" />
+
+		<input type="submit" id="enviar" />
+	</form>
+</body>
+
+</html>

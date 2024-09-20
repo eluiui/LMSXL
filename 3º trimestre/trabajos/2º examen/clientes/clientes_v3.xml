@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                  xsi:noNamespaceSchemaLocation="clientes_v3.xsd">
+  <cliente>
+    <dato>
+      <otro_dato cif="X11111111"/>
+    </dato>
+    <empresa>Empresa XXXX</empresa>
+    <localidad>Ponteareas</localidad>
+    <provincia>PONTEVEDRA</provincia>
+    <facturacion>24567.99</facturacion>
+  </cliente>
+  <cliente>
+    <dato>
+      <otro_dato cif="Z99999999"/>
+    </dato>
+    <empresa>Empresa ZZZZ</empresa>
+    <localidad>Redondela</localidad>
+    <provincia>PONTEVEDRA</provincia>
+    <facturacion>2456700</facturacion>
+  </cliente>
+  <cliente>
+    <dato>
+      <otro_dato cif="Y33333333"/>
+    </dato>  
+    <empresa>Empresa YYYYY</empresa>
+    <localidad>Moaña</localidad>
+    <provincia>PONTEVEDRA</provincia>
+    <facturacion>10000000</facturacion>
+  </cliente>  
+</clientes>

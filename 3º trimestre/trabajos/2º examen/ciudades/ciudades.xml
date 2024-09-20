@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ciudades xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Z:/1º%20DAM/LMSXL/3º%20trimestre/trabajos/2º%20examen//ciudades/ciudades.xsd">
+  <ciudad CP="36000" patrimonio="false">
+    <nombre>Vigo</nombre>  
+    <provincia>Pontevedra</provincia>
+    <comunidad>Galicia</comunidad>
+    <num_habitantes>300395</num_habitantes>
+  </ciudad>
+  <ciudad patrimonio="false">
+    <nombre>Bueu</nombre>  
+    <provincia>Pontevedra</provincia>
+    <comunidad>Galicia</comunidad>
+    <num_habitantes>11950</num_habitantes>
+  </ciudad>
+      <ciudad patrimonio="true">
+    <nombre >Monforte</nombre>  
+    <provincia>Lugo</provincia>
+    <comunidad>Galicia</comunidad>
+    <num_habitantes>18347</num_habitantes>
+  </ciudad>
+  <ciudad  patrimonio="false">
+    <nombre>Valdemoro</nombre>  
+    <provincia>Madrid</provincia>
+    <comunidad>Madrid</comunidad>
+    <num_habitantes>77270</num_habitantes>
+  </ciudad>
+    <ciudad patrimonio="true">
+    <nombre>Badalona</nombre>  
+    <provincia>Barcelona</provincia>
+    <comunidad>Cataluña</comunidad>
+    <num_habitantes>223166</num_habitantes>
+  </ciudad>   
+</ciudades>

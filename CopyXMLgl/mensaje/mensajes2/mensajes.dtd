@@ -1,9 +1,0 @@
-<!ELEMENT mensajes (mensaje)*>
-<!ELEMENT mensaje (num_telefono , fecha_envio , hora_envio? , contenido_mensaje)>
-<!ELEMENT num_telefono (#PCDATA)>
-<!ELEMENT fecha_envio (dia , mes , aÃ±o)>
-<!ELEMENT dia (#PCDATA)>
-<!ELEMENT mes (#PCDATA)>
-<!ELEMENT aÃ±o (#PCDATA)>
-<!ELEMENT hora_envio (#PCDATA)>
-<!ELEMENT contenido_mensaje (#PCDATA)>

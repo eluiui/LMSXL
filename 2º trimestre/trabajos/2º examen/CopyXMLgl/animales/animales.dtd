@@ -1,0 +1,4 @@
+<!ELEMENT animales (animal+)>
+<!ELEMENT animal (nombre,patas)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT patas (#PCDATA)>

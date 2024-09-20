@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Display</title>
+	<link rel="icon" type="image/png" href="../imagenes/favicon-16x16.png">
+	<style>
+	span.a {
+	  display: inline;/*valor por defecto*/ 
+	  width: 400px;/* aunque lo quitemos no pasara nada ya que este es un 
+	  elemento en linea y las dimensiones no funcionan */
+	  height: 400px;/* aunque lo quitemos no pasara nada ya que este es un 
+	  elemento en linea y las dimensiones no funcionan */
+	  padding: 5px;
+	  border: 1px solid blue;  
+	  background-color: yellow; 
+	}
+
+	span.b {
+	  display: inline-block;/* transforma al span en un elemento en bloke 
+	  que funciona en linea*/
+	  width: 100px;
+	  height: 100px;
+	  padding: 5px;
+	  border: 1px solid blue;    
+	  background-color: yellow; 
+	}
+
+	span.c {
+	  display: block;
+	  width: 100px;/* transforma al span en un elemento en bloke
+	  (span de base es un elemento en linea)*/
+	  height: 100px;/* ahora si afecta ya que el display lo transforma en un 
+	  elemento en bloke*/
+	  padding: 5px;
+	  border: 1px solid blue;    
+	  background-color: yellow; 
+	}
+	#jesu{color: red;}
+	body{background-color: rgb(50,50,50);}
+	</style>
+</head>
+<body>
+<div id="jesu">
+	
+	<h1>The display Property</h1>
+
+	<h2>display: inline</h2>
+	<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum 
+		 consequat scelerisque elit sit amet consequat. Aliquam erat volutpat. 
+		 <span class="a">Aliquam</span> <span class="a">venenatis</span> gravida 
+		 nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet. 
+	</div>
+
+	<h2>display: inline-block</h2>
+	<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum 
+		 consequat scelerisque elit sit amet consequat. Aliquam erat volutpat. 
+		 <span class="b">Aliquam</span> <span class="b">venenatis</span> gravida 
+		 nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet. 
+	</div>
+
+	<h2>display: block</h2>
+	<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum 
+		 consequat scelerisque elit sit amet consequat. Aliquam erat volutpat. 
+		 <span class="c">Aliquam</span> <span class="c">venenatis</span> gravida
+		 nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet. 
+	</div>
+</div>
+</body>
+</html>

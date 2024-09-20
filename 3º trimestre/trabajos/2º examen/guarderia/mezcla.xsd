@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+  <xs:element name="mezcla">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="persoa"  maxOccurs="unbounded">
+          <xs:complextype>
+            <xs:sequence>
+              <xs:element  name="nome">
+                <xs:simpletype>
+                  <xs:restriction base="xs:string">
+                    <xs:minLenght value="5"/>
+                    <xs:maxLenght value="20"/>
+                  </xs:restriction>
+                </xs:simpletype>
+              </xs:element>
+              <xs:element  name="direccion" type="xs:string" />
+              <xs:choice>
+                <xs:element  name="telefono_movil" >
+                  <xs:simpletype>
+                    <xs:restriction base="xs:string">
+                      <xs:pattern value="[0-9]{5}"
+                    </xs:restriction>
+                  </xs:simpletype>
+                </xs:element>
+                <xs:element  name="telefono_fijo" type="xs:string">
+                  <xs:simpletype>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLenght value="9"/>
+                    </xs:restriction>
+                  </xs:simpletype>
+                  </xs:element>
+              </xs:choice>
+            </xs:sequence>
+            <xs:attribute name="dni" type="xs:string" use="required"/>
+           </xs:complextype>
+         </xs:element>
+         <xs:element name="carta" maxOccurs="unvounded">
+          <xs:cmplextype type="mixed">
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="hijo" type="xs:string"/>
+              <xs:element  name="fecha">
+                <xs:simpletype>
+                  <xs:restriction base="xs:date">
+                    <xs:minInclusive value="2020-01-01"/>
+                  </xs:restriction>
+                </xs:simpletype>
+              </xs:element>
+            </xs:sequence>
+          </xs:cmplextype>
+         </xs:element>
+         <xs:element name="carta2" maxOccurs="unvounded">
+          <xs:cmplextype type="mixed">
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="hijo" type="xs:string"/>
+             <xs:element  name="fecha">
+                <xs:simpletype>
+                  <xs:restriction base="xs:date">
+                    <xs:minInclusive value="2020-01-01"/>
+                  </xs:restriction>
+                </xs:simpletype>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute  name="num" type="xs:integer" use="required"/>
+          </xs:cmplextype>
+         </xs:element>
+         <xs:element name="racion" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:simplecontent>
+              <xs:extension base="xs:integer">
+                <xs:attribute  name="unidad"use="required">
+                 <xs:restriction base="xs:string">
+                  <xs:enumeration value="gr"/>
+                  <xs:enumeration value="ml"/>
+                  <xs:enumeration value="mg"/>
+                 </xs:restriction>
+                </xs:attribute>
+              </xs:extension>
+            </xs:simplecontent>
+          </xs:complexType>
+         </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- SEPARA VALOR Y UNIDAD EN SENDOS ELEMENTOS
+       PERO ESTAN AL MISMO NIVEL...¿? -->
+       <!DOCTYPE alimentos [
+<!ELEMENT alimentos (alimento)+>
+<!ELEMENT alimento (nombre, racion, unidad, calorias, proteinas,grasas)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT racion (#PCDATA)>
+<!ELEMENT unidad (#PCDATA)>
+<!ELEMENT calorias (#PCDATA)>
+<!ELEMENT proteinas (#PCDATA)>
+<!ELEMENT grasas (#PCDATA)>
+]>
+<alimentos>
+  <alimento>
+    <nombre>Pan</nombre>
+    <racion>60</racion>
+    <unidad>gr</unidad>
+    <calorias>153</calorias>
+    <proteinas>4,2</proteinas>
+    <grasas>0,5</grasas>
+  </alimento>
+  <alimento>
+    <nombre>Leche</nombre>
+    <racion>200</racion>
+    <unidad>gr</unidad>    
+    <calorias>136</calorias>
+    <proteinas>7</proteinas>
+    <grasas>7.8</grasas>
+  </alimento>
+  <alimento>
+    <nombre>Azúcar</nombre>
+    <racion>15</racion>
+    <unidad>gr</unidad>    
+    <calorias>57</calorias>
+    <proteinas>0</proteinas>
+    <grasas>0</grasas>    
+  </alimento>
+  <alimento>
+    <nombre>Lentejas</nombre>
+    <racion>60</racion>
+    <unidad>gr</unidad>    
+    <calorias>202</calorias>
+    <proteinas>14.4</proteinas>
+    <grasas>1</grasas>
+  </alimento>
+  <alimento>
+    <nombre>Aceite</nombre>
+    <racion>50</racion>
+    <unidad>ml</unidad>    
+    <calorias>450</calorias>
+    <proteinas>0</proteinas>    
+    <grasas>50</grasas>
+  </alimento>
+  <alimento>
+    <nombre>Melocotón</nombre>
+    <racion>150</racion>
+    <unidad>gr</unidad>    
+    <calorias>67</calorias>
+    <proteinas>0.64</proteinas>
+    <grasas>0.12</grasas>
+  </alimento>
+</alimentos>

@@ -1,0 +1,6 @@
+<!ELEMENT ciudades (ciudad+)>
+<!ELEMENT ciudad (nombre,provincia,comunidad,num_habitantes)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT comunidad (#PCDATA)>
+<!ELEMENT num_habitantes (#PCDATA)>

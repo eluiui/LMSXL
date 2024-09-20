@@ -1,0 +1,129 @@
+<html>
+
+<head>
+    <style>
+        .div {
+            border: solid rgb(255, 0, 0) 3px;
+            border-radius: 15px;
+            width: 600px;
+            margin-left: 250px;
+
+        }
+
+        body {
+            font-family: Arial;
+            background: #FCDEF0;
+            background-image: url(../../index/imagenes/gota.png);
+            background-repeat: repeat-y;
+            font-size: 20px;
+            margin-left: 180px;
+            line-height: 150%;
+            text-align: justify;
+        }
+
+        h1 {
+            word-spacing: 5px;
+            font-family: Comic Sans MS;
+            text-align: center;
+            color: rgb(255, 0, 0);
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+
+        .none {
+            border: none;
+            text-align: center !important;
+        }
+
+        fieldset {
+            border-radius: 15px;
+            margin: 30px;
+            text-align: justify !important;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        legend {
+            color: rgb(255, 0, 0);
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        #acertar {
+            margin: 40px;
+        }
+
+        input {
+            border-color: rgb(80%, 80%, 80%);
+            border-radius: 15px;
+            background: rgb(80%, 80%, 80%);
+            padding: 10px;
+        }
+
+        div {
+            border: solid rgb(255, 0, 0) 3px;
+            border-radius: 15px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .separate {
+            margin-left: 40px;
+        }
+
+        .evaluar {
+            padding: 5px 40px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Eval&uacute;ate</h1>
+    <div class="div">
+        <form action="https://marta.dawo.iesteis.gal/formulario.php" method="get">
+
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="nombre">Nombre</label> <br />
+                <input type="text" id="nombre" name="nombre" value="" />
+                <br />
+                <label for="cp">CP</label> <br />
+                <input type="text" id="cp" name="cp" value="" />
+                <br />
+            </fieldset>
+            <fieldset>
+                <legend>Aprendiste...</legend>
+                <label>Elige grupos sanguineos</label>
+                <br />
+                <div class="none">
+                    <select size="3" multiple="multiple">
+                        <option value="A" selected="selected">Grupo A</option>
+                        <option value="B">Grupo B</option>
+                        <option value="0">Grupo C</option>
+                        <option value="AB">Grupo AB </option>
+                    </select>
+                </div>
+                <label class="separate" for="acertar">Elige respuesta correcta</label> <br />
+                <br /><br />
+                <div>
+                    <input selected="selected" type="radio" name="evaluar" value="correcta" checked="checked" />Grupo A
+                    --> dona sólo grupo A
+                </div>
+                <br />
+                <div>
+                    <input type="radio" name="evaluar" value="incorrcta" /> Grupo A --> dona grupos A, AB
+                </div>
+                <br />
+                <div>
+                    <input type="radio" name="evaluar" value="incorrecta" /> Grupo A --> donante Universal
+                </div>
+            </fieldset>
+            <input class="evaluar" type="submit" name="enviar" value="Evaluar" size="30px" />
+        </form>
+    </div>
+</body>
+
+</html>

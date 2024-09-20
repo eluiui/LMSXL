@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Width vs max-width</title>
+	<link rel="icon" type="image/png" href="../imagenes/favicon-16x16.png">
+	<style type="text/css">
+		body{background-color: gray;}
+		/*al añadir reglas para el parrafo para sus dimensiones el navegador no ajusta el parrafo al tamaño de la pagina*/
+		p.max{max-width:600px;
+		  padding:10px;
+		  border: solid 5px tomato;}/*este se ajusta a la patalla y 
+		  tiene una anchura maxima de 600px*/
+		p.width{width:600px;
+		  padding:10px;
+		  border: solid 5px tomato;}/*este no se ajusta a la patalla y tiene 
+		  una anchura fija de 600px*/
+	</style>
+</head>
+<body>
+	<h2>Diferencia entre width y max-width</h2>
+	<p class="width">Párrafos con anchura establecida mediante la propiedad width y max-width. La mejor manera de visualizar su funcionamiento es variando la anchura de la ventana del navegador.</p>
+	<p class="max">Párrafos con anchura establecida mediante la propiedad width y max-width. La mejor manera de visualizar su funcionamiento es variando la anchura de la ventana del navegador.</p>
+</body>
+</html>
+
+
+
+
+
+
